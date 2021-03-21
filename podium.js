@@ -1,9 +1,12 @@
-const podium = (arrayNb) => {
- let newArray = arrayNb.sort((a,b) => b - a)
-  newArray = 
-  return newArray
+let array = [2, 3, 1, 25, 50, 23, 75]
+
+const podium = (array) => {
+  let res = []
+  array.sort((a,b) => {
+    return b - a
+  }).slice(0,3)
+  res += `1st: ${array[0]}\n2nd: ${array[1]}\n3nd: ${array[2]}`
+  return res
 }
 
-let res = [18, 6, 5, 14, 20, 3]
-
-console.log(podium())
+console.log(podium(array))

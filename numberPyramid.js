@@ -1,13 +1,10 @@
 const numberPyramid = (nb) => {
-  let res = (nb).toString()
-  for (let i= 0; i<= nb; ++i){
-    res += res.repeat(i)
-    if(i <= nb) {
-      res += '\n'
-    }
+  let res = ''
+  for ( i = 1; i <= nb; i++){
+       console.log(`${i}`.repeat(i)) 
   }
-  return res
 }
 
-console.log(numberPyramid(2))
+numberPyramid('8')
+
 
