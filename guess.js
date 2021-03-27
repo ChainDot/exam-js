@@ -8,6 +8,7 @@ const guess = (userGuess, secret) => {
  }
 }
 
-console.log(guess(1,2))
-console.log(guess(2,1))
-console.log(guess(2,2))
+console.log(guess(1,2)
+console.log(guess(2,1)
+console.log(guess(2,2)
+console.log(guess(2,3)
